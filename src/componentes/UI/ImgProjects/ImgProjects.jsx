@@ -1,0 +1,1 @@
+export const ImgPiedraPapelTijera = ({ src, alt }) => <img src={src} alt={alt} />;

@@ -1,0 +1,103 @@
+
+
+/* Header CSS*/
+
+.header {
+  width: 100vw;
+  height: 10rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #023d62;
+  border:double 7px #720202;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.header > nav {
+  flex: 2;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+nav > ul {
+  display: flex;
+  gap: 3rem;
+}
+
+ul > li {
+  list-style: none;
+}
+
+li > a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+li > a:hover {
+  text-decoration: underline;
+  font-weight: 800;
+  text-shadow: 0 0 15px #2ebde0;
+}
+
+/* Main Container CSS*/
+.main-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 0 2rem;
+  margin: 20px auto;
+  background-image: url('https://www.itespresso.es/wp-content/uploads/2021/10/top-lenguajes-programacion-2021.jpg'); /* Aquí puedes agregar la imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  background-color: #494747;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-img {
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    margin-bottom: 20px;
+    order: 2;
+    max-width: 30%;
+    
+    transition: transform 0.5s ease;
+  }
+  .container-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px solid #007acc;
+  }
+  
+  .container-text {
+    order: 1;
+    max-width: 50%;
+  }
+  
+  .personalInit {
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 10px;
+    padding: 0 15px;
+  }
+  .personalInit::first-letter {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #242425;
+  }
+  
+

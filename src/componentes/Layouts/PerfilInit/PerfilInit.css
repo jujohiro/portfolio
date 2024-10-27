@@ -1,0 +1,60 @@
+.perfil-main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 2rem;
+    background-color: rgba(135, 137, 154, 0.7); /* Un color semi-transparente para mezclarse con la imagen */
+    background-image: url('https://www.fundaciontelefonica.com/wp-content/uploads/2022/09/portada-dia-programador-2560x950-1.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-blend-mode: overlay; /* Mezcla la imagen con el color de fondo */
+}
+
+.perfil-container-img {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.perfil-container-img img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #013a51;
+    margin-top: 20px;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+
+.perfil-container-img img:hover {
+    transform: scale(1.05);
+    box-shadow: 8px solid #60120a;
+}
+
+.perfil-personalInit {
+    text-align:center;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #60120a;
+    text-decoration:double;
+    line-height: 1.2;
+    max-width: 50%; /* Ajusta el ancho para que no ocupe todo el espacio */
+    margin-right: 3rem; /* Añade espacio a la derecha */
+}
+h1 {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1f2126f6;
+}
+.perfil-personalInit:hover {
+    transform: scale(1.05);
+    box-shadow: 8px solid #32084c; 
+    transition: transform 0.3s ease, border 0.3s ease;
+}

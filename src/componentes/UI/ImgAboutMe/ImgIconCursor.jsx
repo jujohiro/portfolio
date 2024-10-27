@@ -1,0 +1,1 @@
+export const Imgcursor = ({ src, alt }) => <img src={src} alt={alt} />;

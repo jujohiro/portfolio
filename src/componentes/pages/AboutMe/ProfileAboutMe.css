@@ -1,0 +1,86 @@
+.about-container {
+    display: flex;
+    flex-direction: row; /* Imagen a la izquierda */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: #080808e3;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: 100vw;
+    height: auto;
+    margin: 2rem auto;
+    border: double 8px #720202;
+    background-image: url('https://assets.bedu.org/images/top-lenguajes-programacion-2021.jpg');
+    background-blend-mode: overlay;
+    
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+}
+
+.about-title {
+    font-size: 2.5rem;
+    color: #d5d6dd;
+    margin-bottom: 1.5rem;
+    margin-right: 5rem;
+}
+
+
+.about-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-left: 3rem; /* Ajusta este valor según el espaciado deseado */
+}
+
+.about-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem; /* Espacio entre la imagen del ícono y el texto */
+    margin-bottom: 1.5rem;
+}
+
+.about-item img {
+    width: 23px !important; /* Ajustado para que el icono sea más pequeño */
+    height: 23px !important;
+    object-fit: contain;
+}
+
+.about-item h3 {
+    font-size: 1.9rem;
+    color: #d61803;
+    margin-bottom: 0.8rem;
+    transition: transform 0.3s ease, border 0.5s ease;
+    box-shadow: 0 0 20px #131783;
+    
+}
+
+.about-item p {
+    font-size: 1.2rem;
+    color: #dddada;
+    line-height: 1.4;
+    max-width: 400px;   
+}
+
+.about-content img {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 15px #e0e6a9;
+    margin-top: 20px;
+    margin-right: 4rem;
+    
+}
+
+.about-content img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
